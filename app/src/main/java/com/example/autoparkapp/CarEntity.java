@@ -24,6 +24,7 @@ public class CarEntity {
     private String status = "В наявності";
 
     public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
     @NonNull
     public String getBrand() { return brand; }
